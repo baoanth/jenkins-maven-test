@@ -1,4 +1,4 @@
-
+//1206
 public class GradeConverter {
     public String convert(int score)
     {
@@ -16,5 +16,4 @@ public class GradeConverter {
             return "Invalid";
         }
     }
-
 }
