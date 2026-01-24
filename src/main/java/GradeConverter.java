@@ -9,13 +9,13 @@ public class GradeConverter {
         final int E_SCORE = 59;
         final int MIN_SCORE = 0;
 
-        if (score <= MAX_SCORE && score >= A_SCORE) {
+        if (score <= MAX_SCORE && score > A_SCORE) {
             return "A";
-        } else if (score < A_SCORE && score >= B_SCORE) {
+        } else if (score < A_SCORE && score > B_SCORE) {
             return "B";
-        } else if (score < B_SCORE && score >= C_SCORE) {
+        } else if (score < B_SCORE && score > C_SCORE) {
             return "C";
-        } else if (score < C_SCORE && score >= D_SCORE) {
+        } else if (score < C_SCORE && score > D_SCORE) {
             return "D";
         } else if (score < D_SCORE && score > MIN_SCORE) {
             return "E";
